@@ -1,0 +1,5 @@
+n1 = float(input('Digite aqui a nota da sua primeira prova: '))
+n2 = float(input('Digite aqui a nota da sua segunda prova: '))
+n3 = float(input('Digite aqui a nota da sua terceira prova: '))
+n4 = float(input('Digite aqui a nota da sua quarta prova: '))
+print('A média das suas notas é {:.2f}'.format((n1+n2+n3+n4)/4))
