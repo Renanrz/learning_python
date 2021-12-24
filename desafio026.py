@@ -1,0 +1,7 @@
+phrase = str(input('Digite uma frase: ')).strip()
+first_position = phrase.upper().find('A')
+print(f'A primeira posição que a letra A aparece é a posição {first_position}')
+num_of_ap = phrase.upper().count('A')
+print(f'A letra A aparece {num_of_ap} vezes')
+last_position = phrase.upper().rfind('A')
+print(f'A última vez que a letra A aparece é na posição {last_position}')
