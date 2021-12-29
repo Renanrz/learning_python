@@ -2,7 +2,7 @@
 import pygame
 pygame.mixer.init()
 pygame.init()
-p1 = str(input('Digite aqui o nome de uma pessoa q mora no 206: '))
+p1 = str(input('Digite aqui o nome de uma pessoa que mora no 206: '))
 if p1 == 'Renan':
     pygame.mixer.music.load('RR.mp3')
 else:
@@ -16,6 +16,5 @@ else:
                 pygame.mixer.music.load('Dave.mp3')
             else:
                 pygame.mixer.music.load('other.mp3')
-
 pygame.mixer.music.play()
 pygame.event.wait()
